@@ -9,12 +9,12 @@ function generateProfile() {
     return;
   }
 
-  document.getElementById("#profileName").innerText = name;
-  document.getElementById("#profileRole").innerText = role;
+  document.getElementById("profileName").innerText = name;
+  document.getElementById("profileRole").innerText = role;
   document.getElementById("profileBio").innerText = bio;
 
-  const img = document.getElementById("#profileImg");
+  const img = document.getElementById("profileImg");
   img.src = image || "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=300";
 
-  document.getElementById("#profileCard").style.display = "block";
+  document.getElementById("profileCard").style.display = "block";
 }
